@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* login page  */
+.loginPage{
+    margin:auto;
+    height: 100vh;
+}
+.loginForm{
+    border: 1px solid black;
+    padding: 20px;
+    margin:10px;
+    height: fit-content;
+    font-size: 14px;
+    font-family: "nunito_sans","sans-serif";
+    letter-spacing: .3px;
+}
+.loginPic{
+   height: 500px;
+   width: 400px;
+   clear: both;
+   margin-top:20px;
+   margin-left: 150px;
+   padding: 30px;
+}
+input {
+    width: 100%;  
+    border: 1px solid #DFDFDF; 
+    border-radius: 5px; 
+    padding: 0 10px;
+    margin: 0 -17px;  
+    height: 40px;
+}  
+
+.errormsg{
+    color: rgb(195, 13, 13);
+}
+
+/* main page  */
+
+/* logo font  */
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+.navMain{
+    color: aliceblue;
+}
+
+.bodyContent{
+    background-color: rgb(252, 250, 248);
+    height: 100vh;
+}
+
+.bodyHeading{
+    font-size: 60px;
+    font-weight: 650;
+    margin-top: 30vh;
+    margin-left: 20vh;
+}
+.bodyPara{
+    margin-left: 50vh;
+}
+/* todoList page  */
+
+.list{
+    width:100%;
+}
+.todoPic{
+    margin-top: 25px;
+}
+td:last-of-type{
+    width:50px;
+}
